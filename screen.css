@@ -8,43 +8,33 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-
-img,video {
+img,
+video,
+audio {
   display: block;
   max-width: 100%;
 }
 
+
 html {
-  background: #FFE0D1;
-  color: #6E6FB2;
-  background: rgb(255,224,209);
+  font-family: Helvetica, Arial, sans-serif;
 }
-a {
-  color: #85B277;
-}
-/*
-a:visited,
-a:hover,
-a:active {
-  color: yellow;
-}
-*/
-#content a[href^=http]{
-  color: orange;
-}
-a {
-  color: cyan;
-}
+
 
 p {
-  text-indent: 1.5em;
+  font-family:Helvetica,Arial,sans-serif;
 }
-h2 + p {
-  text-indent: 0;
+/*
+p::first-line {
+  font-weight: bold;
 }
-
-
-
-#header {
-  background-color: black;
+*/
+article:hover {
+  background-color: yellow;
+}
+b {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
 }
